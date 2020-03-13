@@ -1,17 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <myHeader msg="This is a very majestic header"/>
+    <myBody/>
+    <myFooter msg="footer things for a footer"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import myHeader from './components/Header.vue'
+import myBody from './components/Body.vue'
+import myFooter from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    myHeader,
+    myBody,
+    myFooter
   }
 }
 </script>
@@ -23,6 +28,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
