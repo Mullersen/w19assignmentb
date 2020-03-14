@@ -48,7 +48,6 @@ export default {
 #body-container{ 
     height: 80vh;
     width:100%;
-    border-bottom: solid 1px grey;
 }
 .body{
     height: 20vh;

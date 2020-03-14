@@ -14,9 +14,10 @@ export default {
 </script>
 
 <style scoped>
-#header{ 
+#footer{ 
     height: 10vh;
     width:100%;
     background-color: grey;
+    border-top: solid 1px grey;
 }
 </style>
